@@ -118,15 +118,14 @@ These help explain why a loan is predicted as risky or safe.
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/credit-risk-project.git
-```bash
 cd credit-risk-project
 
 ---
 
 ### 2. Install dependencies
-```bash
 pip install -r requirements.txt
 
 ---
