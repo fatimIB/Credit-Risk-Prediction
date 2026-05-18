@@ -30,6 +30,8 @@ The dataset contains information about loan applicants, including:
 - Target variable:
   - `loan_status` → 0 = No Default, 1 = Default
 
+link to dataset : https://www.kaggle.com/datasets/laotse/credit-risk-dataset
+
 ---
 
 ## 🧠 Machine Learning Pipeline
@@ -118,4 +120,35 @@ These help explain why a loan is predicted as risky or safe.
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/credit-risk-project.git
+```bash
 cd credit-risk-project
+
+---
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+
+---
+
+### 3. Run notebooks
+
+Open and execute the notebooks in the following order:
+
+- EDA.ipynb
+- preprocessing.ipynb
+- modeling.ipynb
+- evaluation.ipynb
+
+## 📊 Key Insights
+- Loan grade is the strongest predictor of default risk
+- Higher loan-to-income ratio increases default probability
+- Renters are more likely to default than homeowners
+
+---
+
+
+###👩‍💻 Author
+
+Fatima IBOUBKARNE
+Master’s in Data Analytics & AI
